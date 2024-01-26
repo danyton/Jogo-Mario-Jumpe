@@ -23,30 +23,6 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
-    .nav-container,
-    .container {
-        max-height: 30vh;
-    }
-
-    .game-board {
-        max-height: 40vh;
-    }
-
-    .pipe,
-    .mario {
-        max-height: 40vh;
-    }
-
-    .footer {
-        max-height: 15vh;
-        text-align: center;
-        bottom: 0;
-        width: 100%;
-        color: #0e0f0e;
-        font-size: 10px;
-    }
-}
 
 .game-board {
     width: 100%;
