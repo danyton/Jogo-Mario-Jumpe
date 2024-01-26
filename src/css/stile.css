@@ -26,16 +26,15 @@ body {
 @media only screen and (max-width: 768px) {
     .nav-container,
     .container {
-        max-height: 40vh;
+        max-height: 30vh;
     }
 
     .game-board {
-        max-height: 60vh;
+        max-height: 40vh;
     }
 
     .pipe,
     .mario {
-        width: 40px !important;
         max-height: 40vh;
     }
 
