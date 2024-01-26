@@ -1,10 +1,19 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const scoreElement = document.querySelector('.score');
+const jumpButton = document.querySelector('.rpgui-button');
 
 let score = 0;
 
 const jump = () => {
+  mario.classList.add('jump');
+
+  setTimeout(() => {
+    mario.classList.remove('jump');
+  }, 550);
+};
+
+const jumpButtonEffect = () => {
   mario.classList.add('jump');
 
   setTimeout(() => {
@@ -41,3 +50,4 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
+jumpButton.addEventListener('click', jumpButtonEffect);

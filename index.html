@@ -6,19 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mario Jump</title>
     <link rel="stylesheet" href="./src/css/stile.css">
+    <link rel="stylesheet" href="./src/css/containers_and_frames.css">
+    <link rel="stylesheet" href="./src/css/buttons.css">
+    <link href="dist/rpgui.css" rel="stylesheet" type="text/css" >
+    <!-- <meta name="color-scheme" content="light dark"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
     
 </head>
 <body>
+<div class="framed-golden-2 nav-container  ">
     <div class="game-board">
         <img src="./src/imagens/clouds.png" class="clouds" alt="nuvens">
         <img src="./src/imagens/cano.png" class="pipe" alt="cano">
         <img src="./src/imagens/mario.gif" class="mario" alt="mario">
         
     </div>
-    <div class="container">
+    <div class="container framed-golden-2 ">
         <h2 class="h2">Score:</h2>
         <span class="score">0</span>
     </div>
+    <div class="container">
+        <button class="rpgui-button">Pular</button>
+    </div>
+</div>
+
+<footer class="framed-golden-2 footer">
+    <p>© Desenvolvido por Heverton Freire Barbosa. Todos os direitos reservados.</p>
+</footer> 
 </body>
 <script src="./index.js"></script>
+<script src="dist/rpgui.js"></script>
 </html>
