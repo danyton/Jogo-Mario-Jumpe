@@ -10,7 +10,7 @@ const jump = () => {
 
   setTimeout(() => {
     mario.classList.remove('jump');
-  }, 550);
+  }, 500);
 };
 
 const jumpButtonEffect = () => {
@@ -18,7 +18,7 @@ const jumpButtonEffect = () => {
 
   setTimeout(() => {
     mario.classList.remove('jump');
-  }, 550);
+  }, 500);
 };
 
 const updateScore = () => {
